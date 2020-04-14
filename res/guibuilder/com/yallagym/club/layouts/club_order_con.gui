@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="club_order_con">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="68.783066" layeredLayoutPreferredHeightMM="24.338625"  styles="border:1.0px solid a3cc2e; bgColor:ffffff; transparency:255; margin:2.0mm 0.0mm 2.0mm 0.0mm; padding:0px 0px 0px 0px;" preferredSize="inherit 24.338625mm" name="Container">
+    <layoutConstraint insets="auto -0.2mm auto -0.2mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgImage:user_green_512_ic.png;" preferredSize="11.375662mm 11.111112mm" name="lbl_img">
+      <layoutConstraint insets="2.0mm auto auto 4.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="33.597885" layeredLayoutPreferredHeightMM="22.222223"  preferredSize="33.597885mm 24.603174mm" name="Container_1">
+      <layoutConstraint insets="2.0mm 25.0% 0.0mm 1.5mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+      <component type="Label" uiid="Detalis_Sb_green" text="Mikdam Qandeel" styles="font:3.0mm; fgColor:3c4646; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="42.857143mm 3.968254mm" name="lbl_name">
+        <layoutConstraint insets="-1.1920929E-7mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="Detalis_Sb_green" text="15 JOD" styles="font:3.0mm; fgColor:757575; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="59.25926mm 5.555556mm" name="lbl_price">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="Detalis_Sb_green" text="Start date : 10 / 12 / 2019 " styles="fgColor:8b8b8b; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="47.354496mm 3.968254mm" name="lbl_start_date">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="Detalis_Sb_green" text="End date : 10 / 1 / 2020 " styles="fgColor:8b8b8b; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="52.645504mm 3.4391534mm" name="lbl_end_date">
+        <layoutConstraint insets="-5.9604645E-8mm 0.0mm auto -4.7683716E-7mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="Detalis_Sb_green" text="Weekly Subscribtion" styles="fgColor:8b8b8b; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="51.851852mm 3.968254mm" name="lbl_sub_type">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="11.640212" layeredLayoutPreferredHeightMM="16.931217"  preferredSize="11.640212mm 16.666666mm" name="Con_Actions">
+      <layoutConstraint insets="auto auto auto 0.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="8.730159" layeredLayoutPreferredHeightMM="7.4074073"  uiid="club_order_con_icons" preferredSize="8.730159mm 7.4074073mm" name="Container_2">
+        <layoutConstraint insets="auto auto 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="transperent" styles="fgColor:ffffff; opacity:255;" preferredSize="27.248678mm 17.195766mm" name="btn_2">
+          <layoutConstraint insets="1.5mm 1.5mm 1.5mm 1.5mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="8.994709" layeredLayoutPreferredHeightMM="7.4074073"  uiid="club_order_con_icons" preferredSize="8.994709mm 7.4074073mm" name="Container_3">
+        <layoutConstraint insets="0.0mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="transperent" styles="fgColor:ffffff; opacity:255;" preferredSize="27.248678mm 17.195766mm" name="btn_1">
+          <layoutConstraint insets="1.5mm 1.5mm 1.5mm 1.5mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+    </component>
+    <component type="Label" uiid="Detalis_Sb_green" text="5 Days ago" styles="alignment:center;" preferredSize="18.25397mm 7.6719575mm" name="lbl_date_order">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="0 1 -1 -1" referencePositions="1.0 1.0 0.0 0.0" />
+    </component>
+    <component type="Label" name="lbl_id_order">
+      <layoutConstraint insets="50.0% 50.0% 50.0% 50.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

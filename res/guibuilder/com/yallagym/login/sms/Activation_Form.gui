@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="Activation_Form" scrollableY="true" name="Activation_Form">
+  <component type="Label" styles="bgImage:background-image.png;" preferredSize="98.677246mm 134.12698mm" name="bg_img">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" styles="bgImage:dark-layer.png;" preferredSize="123.544975mm 138.62434mm" name="bg_img_gray">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="104.49735" layeredLayoutPreferredHeightMM="123.809525"  preferredSize="104.49735mm 123.809525mm" name="Container">
+    <layoutConstraint insets="0.26455027mm auto 0.26455027mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgImage:logo.png;" preferredSize="41.534393mm 41.798943mm" name="logo">
+      <layoutConstraint insets="10.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:Logo---Crop.png;" preferredSize="47.089947mm 12.698413mm" name="yallagym">
+      <layoutConstraint insets="5.0% auto auto auto" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="69.31217" layeredLayoutPreferredHeightMM="37.037037"  styles="bgColor:ffffff; transparency:255; opacity:255;" preferredSize="57.93651mm 37.037037mm" name="Container_2">
+      <layoutConstraint insets="70.0% 0.0mm -0.26455027mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="66.137566" layeredLayoutPreferredHeightMM="11.904762"  preferredSize="66.137566mm 11.904762mm" name="Container">
+        <layoutConstraint insets="7.746479% 1.0582011mm auto 5.0%" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="17.989418" layeredLayoutPreferredHeightMM="7.142857"  preferredSize="17.989418mm 7.142857mm" name="Container_1">
+          <layoutConstraint insets="auto auto auto 0.2645502mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          <component type="Label" styles="bgImage:flag-jordan.png;" preferredSize="5.820106mm 3.968254mm" name="Label">
+            <layoutConstraint insets="auto auto auto -5.9604645E-8mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Label" text="+962" preferredSize="9.259259mm inherit" name="Label_1">
+            <layoutConstraint insets="auto 0.0mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+        </component>
+        <component type="Button" uiid="Activation_Input" text="Enter your mobile number" preferredSize="57.67196mm 19.047619mm" name="btn_show_next_form" actionEvent="true">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="Label" uiid="Activation_Title" text="Get a club with yalla gym" preferredSize="47.354496mm 9.259259mm" name="Label_2">
+        <layoutConstraint insets="3.4391534mm 3.4391534mm auto 3.4391534mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+  </component>
+</component>

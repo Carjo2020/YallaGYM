@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="Gym_Place_Icon">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="11.111112" layeredLayoutPreferredHeightMM="10.8465605"  preferredSize="11.111112mm 10.8465605mm" name="Container">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Button" uiid="transperent" preferredSize="27.777779mm 19.31217mm" name="btn_select">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:green_place.png;" preferredSize="23.015873mm 23.280424mm" name="lbl_icon">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="Correct_Msg_Sb_Txt" text="JOD 10" styles="fgColor:f7ed23; opacity:255;" preferredSize="12.433863mm 7.4074073mm" name="lbl_txt">
+      <layoutConstraint insets="10.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" name="id_gym">
+      <layoutConstraint insets="50.0% 50.0% 50.0% 50.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

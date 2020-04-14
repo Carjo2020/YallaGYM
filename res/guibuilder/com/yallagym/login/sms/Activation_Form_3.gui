@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="bgColor:ffffff; transparency:255;" title="Activation_Form_3" scrollableY="true" name="Activation_Form_3">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="104.49735" layeredLayoutPreferredHeightMM="123.809525"  preferredSize="104.49735mm 123.809525mm" name="Container">
+    <layoutConstraint insets="0.26455027mm auto 0.26455027mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="70.37037" layeredLayoutPreferredHeightMM="34.391533"  styles="bgColor:ffffff; transparency:255; opacity:255;" preferredSize="71.42857mm 34.391533mm" name="Container_2">
+      <layoutConstraint insets="0.0mm 3.7037036mm auto 3.7037036mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="71.95767" layeredLayoutPreferredHeightMM="8.201058"  preferredSize="71.95767mm 8.201058mm" name="Con_Digits">
+        <layoutConstraint insets="2.0mm 0.0mm auto 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="51.32275" layeredLayoutPreferredHeightMM="8.201058"  preferredSize="51.32275mm 11.640212mm" name="Container_1">
+          <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          <component type="TextField" uiid="Digit" preferredSize="6.3492064mm 17.989418mm" hint="0" constraint="2" name="Digit_1">
+            <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="TextField" uiid="Digit" preferredSize="6.3492064mm 17.989418mm" hint="0" rows="1" constraint="2" name="Digit_2">
+            <layoutConstraint insets="0.0mm auto 0.0mm 2.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+          <component type="TextField" uiid="Digit" preferredSize="6.3492064mm 17.989418mm" hint="0" constraint="2" name="Digit_3">
+            <layoutConstraint insets="0.0mm auto 0.0mm 2.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+          <component type="TextField" uiid="Digit" preferredSize="6.3492064mm 17.989418mm" hint="0" constraint="2" name="Digit_4">
+            <layoutConstraint insets="0.0mm auto 0.0mm 2.0mm" referenceComponents="-1 -1 -1 2 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+        </component>
+        <component type="Button" text="X" preferredSize="8.201058mm inherit" name="btn_clear">
+          <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="SpanLabel" text="Enter the 4-digit code sent to you at" preferredSize="83.862434mm 10.58201mm" name="sb_msg">
+        <layoutConstraint insets="2.3809524mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" text="" preferredSize="97.8836mm 6.6137567mm" name="lbl_phone_no">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="77.77778" layeredLayoutPreferredHeightMM="21.693121"  preferredSize="77.77778mm 21.693121mm" name="Container_4">
+      <layoutConstraint insets="auto 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="28.571428" layeredLayoutPreferredHeightMM="31.481482"  preferredSize="28.571428mm 34.126984mm" name="Container_3">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 70.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="ic_fab" preferredSize="8.994709mm 7.936508mm" icon="fontImage:e5c8" name="btn_check" actionEvent="true">
+          <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+    </component>
+    <component type="Button" preferredSize="6.6137567mm 9.259259mm" icon="fontImage:e5c4" name="btn_back">
+      <layoutConstraint insets="0.0mm auto auto 5.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

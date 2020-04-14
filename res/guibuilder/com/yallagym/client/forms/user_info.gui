@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="" scrollableY="false" name="user_info">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="59.52381" layeredLayoutPreferredHeightMM="130.15874"  preferredSize="76.98413mm 130.15874mm" name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 1.9073486E-6mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="71.164024" layeredLayoutPreferredHeightMM="134.12698"  preferredSize="70.10582mm 134.12698mm" name="Container_1">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Label" uiid="PersonalInfo_Lbl" text="Date" preferredSize="25.132275mm 4.7619047mm" name="Label">
+        <layoutConstraint insets="2.3809524mm auto auto 0.0mm" referenceComponents="7 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl" text="Name" preferredSize="16.402117mm inherit" name="Label_1">
+        <layoutConstraint insets="6.0% auto auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="TextField" preferredSize="inherit 5.555556mm" hint="First Name" name="TF_First_Name">
+        <layoutConstraint insets="0.0mm 50.0% auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="TextField" preferredSize="27.248678mm 5.555556mm" hint="Second Name" name="TF_Last_Name">
+        <layoutConstraint insets="0.0mm 0.26455027mm auto 0.0mm" referenceComponents="1 -1 -1 2 " referencePositions="1.0 0.0 0.0 1.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl" text="Phone" preferredSize="30.15873mm 7.4074073mm" name="Label_2">
+        <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="TextField" preferredSize="61.11111mm inherit" hint="Phone Number" constraint="3" name="TF_Phone">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl" text="Username" preferredSize="21.428572mm inherit" name="Label_3">
+        <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="5 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="TextField" preferredSize="61.11111mm inherit" hint="Username" constraint="1" name="TF_Username">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="6 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl" text="City" preferredSize="25.132275mm 9.259259mm" name="Label_4">
+        <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="11 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="ComboBox" preferredSize="32.27513mm 9.523809mm" scrollVisible="true" name="CBox_Country">
+        <layoutConstraint insets="0.0mm -9.536743E-7mm auto 0.0mm" referenceComponents="10 -1 -1 8 " referencePositions="1.0 0.0 0.0 1.0" />
+      </component>
+      <component type="ComboBox" preferredSize="27.513227mm 8.994709mm" scrollVisible="true" name="CBox_Sex">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0%" referenceComponents="12 -1 -1 11 " referencePositions="1.0 0.0 0.0 1.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl" text="Gender" preferredSize="25.132275mm 8.465609mm" name="Label_5">
+        <layoutConstraint insets="2.3841858E-7mm auto auto 0.0mm" referenceComponents="12 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="37.56614" layeredLayoutPreferredHeightMM="9.523809"  preferredSize="37.56614mm 9.523809mm" name="Con_Picker">
+        <layoutConstraint insets="0.0mm 2.0mm auto 0.0mm" referenceComponents="7 -1 -1 0 " referencePositions="1.0 0.0 0.0 1.0" />
+      </component>
+      <component type="Button" preferredSize="14.550264mm 8.465609mm" icon="fontImage:e254" pressedIcon="fontImage:e254" name="btn_change_phone" actionEvent="true">
+        <layoutConstraint insets="0.0mm 0.0mm auto auto" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Button" uiid="btn_select" text="Save" preferredSize="47.8836mm 10.05291mm" name="btn_save" actionEvent="true">
+        <layoutConstraint insets="2.0mm auto auto auto" referenceComponents="9 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+  </component>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="client_orders" scrollableY="true" name="client_orders">
+  <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" uiid="PersonalInfo_Lbl" text="There's no any order" styles="font:4.0mm; fgColor:333; alignment:center;" name="empty_order">
+    <layoutConstraint insets="0px 0px 0px 0px" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="InfiniteProgress" preferredSize="9.78836mm 9.523809mm" name="Infinite_Progress">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>

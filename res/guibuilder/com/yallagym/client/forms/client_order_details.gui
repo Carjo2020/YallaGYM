@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="client_order_details" scrollableY="true" name="client_order_details">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  uiid="Dialog_ContantPane" name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Button" uiid="btn_share" text="X" styles="font:4.0mm; alignment:center;" preferredSize="7.6719575mm 6.878307mm" name="btn_cancel" actionEvent="true">
+      <layoutConstraint insets="0.0mm -5.9604645E-8mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="Sara Noor" styles="font:5.0mm; alignment:center;" preferredSize="74.07407mm inherit" name="lbl_person_name">
+      <layoutConstraint insets="3.0mm 0.0mm auto 0.0mm" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" preferredSize="28.571428mm 24.074074mm" name="lbl_qrcode">
+      <layoutConstraint insets="2.0mm auto auto auto" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="client_lbl_details_orders" text="Weekly Subscribtion" styles="font:2.5mm; alignment:center;" preferredSize="83.333336mm 5.026455mm" name="lbl_subscribe_type">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="15 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:user_green_512_ic.png;" preferredSize="16.666666mm 15.343915mm" name="Label_2">
+      <layoutConstraint insets="3.0mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:devider_gray_ic.png;" preferredSize="69.57672mm 0.7936508mm" name="Label_3">
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="10 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="10.0 JOD" styles="font:5.0mm; alignment:center;" preferredSize="39.94709mm 6.878307mm" name="lbl_total_price">
+      <layoutConstraint insets="0.0mm auto auto auto" referenceComponents="5 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:devider_gray_ic.png;" preferredSize="94.97355mm 0.7936508mm" name="Label_5">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="6 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="client_lbl_details_orders" text="AlBadr Fitness Center" styles="font:4.0mm; alignment:center;" preferredSize="79.10053mm 6.0846562mm" name="lbl_gym_name">
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="client_lbl_details_orders" text="As Sakhrah Al Musharrafah St., Amman" styles="alignment:center;" preferredSize="77.77778mm 6.0846562mm" name="lbl_location">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="8 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="client_details_order_btn" text="SEE ON MAP" styles="alignment:center;" preferredSize="38.359787mm 6.878307mm" name="btn_location">
+      <layoutConstraint insets="0.0mm 51.0% auto 3.4391534mm" referenceComponents="9 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="Order status : Accepted " preferredSize="51.0582mm 8.730159mm" name="lbl_status">
+      <layoutConstraint insets="1.0mm auto auto auto" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="client_details_order_btn" text="CALL GYM" styles="alignment:center;" preferredSize="38.359787mm 6.878307mm" name="btn_call_gym">
+      <layoutConstraint insets="0.0mm 3.4391534mm auto 55.0%" referenceComponents="9 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="btn_share" preferredSize="inherit 6.3492064mm" icon="fontImage:e80d" name="btn_share" actionEvent="true">
+      <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="67.72487" layeredLayoutPreferredHeightMM="5.291005"  preferredSize="67.72487mm 5.291005mm" name="Container_1">
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="7 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Label" text="Start date : " styles="font:3.0mm; alignment:right;" preferredSize="69.57672mm 5.820106mm" name="lbl_start_date">
+        <layoutConstraint insets="0.0mm 50.0% 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" styles="font:3.0mm; alignment:left;" preferredSize="18.78307mm 8.465609mm" name="lbl_start_date_no">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+      </component>
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="63.492065" layeredLayoutPreferredHeightMM="5.291005"  preferredSize="63.492065mm 5.291005mm" name="Container_2">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="14 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Label" text="End date : " styles="font:3.0mm; alignment:right;" preferredSize="69.57672mm 5.820106mm" name="lbl_end_date">
+        <layoutConstraint insets="0.0mm 50.0% 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" styles="font:3.0mm; alignment:left;" preferredSize="18.78307mm 8.465609mm" name="lbl_end_date_no">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+      </component>
+    </component>
+  </component>
+</component>

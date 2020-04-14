@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="club_qr_done" scrollableY="true" name="club_qr_done">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="69.57672" layeredLayoutPreferredHeightMM="93.915344"  uiid="club_qr_con_first_green" preferredSize="inherit 93.915344mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgImage:circle_correct_ic.png;" preferredSize="16.931217mm 15.873016mm" name="Label">
+      <layoutConstraint insets="10.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="Done!" styles="font:6.0mm; fgColor:0; alignment:center;" preferredSize="80.15873mm inherit" name="lbl_done">
+      <layoutConstraint insets="4.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="transperent" text="X" styles="font:5.0mm; fgColor:0; alignment:center;" preferredSize="12.698413mm 8.994709mm" name="btn_close" actionEvent="true">
+      <layoutConstraint insets="1.0mm 1.0mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="SpanLabel" uiid="SoftButtonCenter" text="has been increased to your account" preferredSize="83.597885mm 15.079365mm" name="Sb_Msg">
+    <custom name="textUiid" type="java.lang.String" value="club_dlg_done_sb"/>
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="49.73545" layeredLayoutPreferredHeightMM="7.6719575"  preferredSize="49.73545mm 7.6719575mm" name="con_stars">
+      <layoutConstraint insets="0.0mm auto auto auto" referenceComponents="6 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="btn_get_started" text="Submit" preferredSize="27.513227mm 7.6719575mm" name="btn_submit">
+      <layoutConstraint insets="3.0mm auto auto auto" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="PersonalInfo_Lbl" text="Please rate this user" styles="font:4.0mm; fgColor:0; bgImage:; alignment:center;" preferredSize="79.62963mm 8.201058mm" name="Label_1">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="7 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="LabelSoftButtonCenter" text="35$" styles="alignment:center;" preferredSize="69.57672mm 6.0846562mm" name="lbl_price_no">
+      <layoutConstraint insets="0.0mm -0.52910054mm auto 0.52910054mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

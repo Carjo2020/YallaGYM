@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="logo">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="35.714287" layeredLayoutPreferredHeightMM="7.6719575"  preferredSize="58.46561mm 7.6719575mm" name="Container">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgImage:Logo---Crop.png;" preferredSize="23.280424mm 7.6719575mm" name="Label">
+      <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

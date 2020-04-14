@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="club_orders" scrollableY="true" name="club_orders">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="52.38095" layeredLayoutPreferredHeightMM="12.962963"  preferredSize="51.851852mm 12.962963mm" name="Con_Search">
+    <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="52.38095" layeredLayoutPreferredHeightMM="56.613758"  preferredSize="93.1217mm 56.613758mm" name="Con_Tabs">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+</component>

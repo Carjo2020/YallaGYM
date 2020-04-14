@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="accepted_terms" scrollableY="true" name="accepted_terms">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="67.72487" layeredLayoutPreferredHeightMM="67.98942"  uiid="con_terms" preferredSize="inherit 67.98942mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="65.60847" layeredLayoutPreferredHeightMM="11.904762"  preferredSize="inherit 11.904762mm" name="Container_1">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Button" uiid="terms_light_green_btn" text="Agree" styles="border:roundRect -top-left -top-right -bottom-left +bottom-right 8.0mm;" preferredSize="38.88889mm 24.074074mm" name="btn_agree">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 50.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Button" uiid="terms_bold_green_btn" text="Cancel" styles="border:roundRect -top-left -top-right +bottom-left -bottom-right 8.0mm;" preferredSize="32.804234mm 28.042328mm" name="btn_cancel">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 0 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="SpanButton" uiid="Correct_Msg_Sb_Txt" text="By tapping the I Agree button, you confirm that you have understand them and that you agree to be bound by them" preferredSize="77.24868mm 40.21164mm" name="Span_Button">
+    <custom name="textUiid" type="java.lang.String" value="Correct_Msg_Sb_Txt"/>
+      <layoutConstraint insets="0.0mm 0.0mm 23.151464% -9.536743E-7mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" uiid="under_line_btn" text="Terms Of Service" preferredSize="71.95767mm inherit" name="btn_open_terms" actionEvent="true">
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:terms_hand_ic.png;" preferredSize="10.8465605mm 11.111112mm" name="Label">
+      <layoutConstraint insets="1.0mm auto auto 39.583336%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="club_payment_devider">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="78.04233" layeredLayoutPreferredHeightMM="9.78836"  preferredSize="inherit 9.78836mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="" styles="bgColor:8d8d8d; transparency:135; bgImage:;" preferredSize="28.042328mm 0.52910054mm" name="Label">
+      <layoutConstraint insets="auto 4.0mm auto 4.0mm" referenceComponents="-1 1 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="Transaction Timeline" styles="font:2.0mm; fgColor:8d8d8d;" preferredSize="21.428572mm 5.026455mm" name="Label_1">
+      <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgColor:8d8d8d; transparency:135; bgImage:;" preferredSize="28.042328mm 0.52910054mm" name="Label_2">
+      <layoutConstraint insets="auto 4.0mm auto 4.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+    </component>
+  </component>
+</component>

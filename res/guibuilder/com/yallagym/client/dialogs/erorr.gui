@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="erorr" scrollableY="true" name="erorr">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="55.291004" layeredLayoutPreferredHeightMM="40.476192"  uiid="Dialog_ContantPane" preferredSize="59.78836mm 40.476192mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Button" uiid="Dialog_Btn" text="No" preferredSize="16.137566mm 8.465609mm" name="No">
+      <layoutConstraint insets="auto 2.3809524mm 0.0mm 2.3809524mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+    </component>
+    <component type="Button" uiid="Dialog_Btn" text="Yes" preferredSize="15.343915mm 8.465609mm" name="Yes">
+      <layoutConstraint insets="auto 54.181816% 0.0mm 2.3809524mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="Dialog_Title" preferredSize="55.291004mm 6.878307mm" name="Title">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="SpanLabel" uiid="Dialog_Msg" text="" styles="alignment:center;" preferredSize="42.06349mm 15.343915mm" name="Msg">
+    <custom name="textUiid" type="java.lang.String" value="Dialog_Msg"/>
+      <layoutConstraint insets="-5.9604645E-8mm 0.0mm 0.0mm 0.0mm" referenceComponents="2 -1 1 -1" referencePositions="1.0 0.0 1.0 0.0" />
+    </component>
+  </component>
+</component>

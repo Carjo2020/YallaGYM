@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="club_payment_con_month_item">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="74.86773" layeredLayoutPreferredHeightMM="12.962963"  preferredSize="inherit 12.962963mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgColor:777777; transparency:77;" preferredSize="104.49735mm 0.52910054mm" name="lbl_divider">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="19.31217" layeredLayoutPreferredHeightMM="13.227513"  preferredSize="19.31217mm 14.550264mm" name="Container_2">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Button" styles="fgColor:3c4646;" preferredSize="6.6137567mm 27.513227mm" icon="fontImage:e315" name="btn_details">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" text="50.5 JOD  " styles="font:2.5mm; fgColor:a3cc2e; alignment:right;" preferredSize="17.460318mm 7.142857mm" name="lbl_total_price">
+        <layoutConstraint insets="auto -2.3841858E-7mm auto 0.0mm" referenceComponents="-1 0 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="11.640212" layeredLayoutPreferredHeightMM="8.994709"  styles="border:round ff3c4646;" preferredSize="11.640212mm 8.994709mm" name="Container_3">
+      <layoutConstraint insets="auto auto auto 2.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Label" styles="bgImage:ic_card.png;" preferredSize="5.291005mm 4.7619047mm" name="Label_1">
+        <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Label" text="8 Dec 2019" styles="font:2.0mm; fgColor:8b8b8b;" preferredSize="36.772488mm 4.2328043mm" name="lbl_date_start">
+      <layoutConstraint insets="0.0mm 0.0mm 2.0mm 3.0mm" referenceComponents="4 1 -1 2 " referencePositions="1.0 1.0 0.0 1.0" />
+    </component>
+    <component type="Label" text="Miki Mohd" styles="font:2.5mm; fgColor:3c4646;" preferredSize="36.772488mm 4.2328043mm" name="lbl_name">
+      <layoutConstraint insets="2.0mm 0.0mm 50.0% 3.0mm" referenceComponents="-1 1 -1 2 " referencePositions="0.0 1.0 0.0 1.0" />
+    </component>
+    <component type="Label" text="" name="lbl_id_order">
+      <layoutConstraint insets="50.0% 50.0% 50.0% 50.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

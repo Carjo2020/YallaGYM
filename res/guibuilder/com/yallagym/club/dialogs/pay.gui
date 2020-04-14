@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="pay" scrollableY="true" name="pay">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="51.851852" layeredLayoutPreferredHeightMM="74.07407"  uiid="club_dlg" preferredSize="51.851852mm 73.809525mm" name="Container">
+    <layoutConstraint insets="10.0% 5.0% 10.0% 5.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="Pay" styles="font:5.0mm; fgColor:ffffff; alignment:center;" preferredSize="78.04233mm 8.994709mm" name="Label">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="65.87302" layeredLayoutPreferredHeightMM="55.026455"  preferredSize="inherit 55.026455mm" name="Container_1">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="65.87302" layeredLayoutPreferredHeightMM="13.4920635"  preferredSize="inherit 13.4920635mm" name="Container_2">
+        <layoutConstraint insets="0.0mm 0.26455027mm auto -0.26455027mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="SpanLabel" text="Total Online Payments" preferredSize="17.460318mm inherit" name="Span_Label">
+        <custom name="textUiid" type="java.lang.String" value="Detalis_Sb_white_pay"/>
+          <layoutConstraint insets="0.0mm 65.0% 0.0mm 1.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" text="100.0" styles="font:10.0mm; fgColor:aae40b;" preferredSize="38.095238mm 12.433863mm" name="lbl_online">
+          <layoutConstraint insets="auto auto auto 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="Label" text="-" styles="font:10.0mm; fgColor:ffffff; alignment:center;" preferredSize="9.523809mm 6.878307mm" name="Label_2">
+        <layoutConstraint insets="0.0mm 2.3809528mm auto auto" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="65.87302" layeredLayoutPreferredHeightMM="13.4920635"  preferredSize="65.87302mm 13.4920635mm" name="Container_3">
+        <layoutConstraint insets="0.0mm -1.1920929E-7mm auto 1.1920929E-7mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="SpanLabel" text="Total Offline Fees" preferredSize="17.724869mm inherit" name="Span_Label_1">
+        <custom name="textUiid" type="java.lang.String" value="Detalis_Sb_white_pay"/>
+          <layoutConstraint insets="0.0mm 65.0% 0.0mm 1.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" text="10.0" styles="font:10.0mm; fgColor:c90000;" preferredSize="36.772488mm 12.433863mm" name="lbl_offline">
+          <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="65.87302" layeredLayoutPreferredHeightMM="13.4920635"  preferredSize="65.87302mm 13.4920635mm" name="Container_4">
+        <layoutConstraint insets="2.0mm 0.0mm auto 0.0mm" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Label" text="90.0" styles="font:10.0mm; fgColor:aae40b;" preferredSize="36.772488mm 12.433863mm" name="lbl_total">
+          <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+        <component type="SpanLabel" text="" preferredSize="inherit 22.486773mm" name="Span_Label_2">
+        <custom name="textUiid" type="java.lang.String" value="Detalis_Sb_white_pay"/>
+          <layoutConstraint insets="0.0mm 65.0% 0.0mm 1.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+      <component type="Label" styles="font:10.0mm; bgColor:ffffff; fgColor:ffffff; transparency:255; alignment:center;" preferredSize="34.656086mm 1.3227513mm" name="Label_5">
+        <layoutConstraint insets="0.0mm 15.662651% auto 31.726908%" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="52.1164" layeredLayoutPreferredHeightMM="8.730159"  preferredSize="36.50794mm 8.730159mm" name="Container_5">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="club_payments_pay_red_btn" text="Cancel" preferredSize="19.84127mm 14.814815mm" name="btn_ignore" actionEvent="true">
+          <layoutConstraint insets="0.0mm 55.0% 0.0mm 5.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Button" uiid="club_payments_pay_green_btn" text="Pay" preferredSize="26.719578mm 10.58201mm" name="Button_1">
+          <layoutConstraint insets="0.0mm 2.3809524% 0.0mm 55.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

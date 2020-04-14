@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "765074121433",
+    "firebase_url": "https://yallagym-a6e4c.firebaseio.com",
+    "project_id": "yallagym-a6e4c",
+    "storage_bucket": "yallagym-a6e4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765074121433:android:c7906649decb5f259414c8",
+        "android_client_info": {
+          "package_name": "com.yallagym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765074121433-spbb4ns3i0jcmpepst8inqdoj31igbli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2FhltJakpiFtZFiJs4OEOMspIQCkbHW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765074121433-spbb4ns3i0jcmpepst8inqdoj31igbli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

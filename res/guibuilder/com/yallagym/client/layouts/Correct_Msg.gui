@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="Correct_Msg" scrollableY="true" name="Correct_Msg">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="57.142857" layeredLayoutPreferredHeightMM="72.48677"  uiid="Home_Cars_Con" preferredSize="58.201057mm 72.48677mm" name="Container_1">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="49.4709" layeredLayoutPreferredHeightMM="55.291004"  uiid="Home_Cars_Con" preferredSize="60.84656mm 55.291004mm" name="Container">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 1 -1" referencePositions="0.0 0.0 1.0 0.0" />
+      <component type="Label" styles="bgImage:correct.png;" preferredSize="26.984127mm 23.015873mm" name="Label">
+        <layoutConstraint insets="0.0mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="SpanLabel" uiid="Correct_Msg_Txt" preferredSize="69.04762mm 13.756614mm" name="sb_msg">
+      <custom name="textUiid" type="java.lang.String" value="Correct_Msg_Sb_Txt"/>
+        <layoutConstraint insets="5.9604645E-8mm 0.0mm 0.0mm 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="Correct_Msg_Save_Lbl" text="Saved successfully" styles="alignment:center;" preferredSize="41.00529mm inherit" name="lbl_title">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Button" uiid="btn_select" text="Done" preferredSize="18.518518mm 7.4074073mm" name="btn_done" actionEvent="true">
+      <layoutConstraint insets="auto auto 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

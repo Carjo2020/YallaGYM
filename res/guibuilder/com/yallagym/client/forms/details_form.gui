@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="Club Information" scrollableY="true" name="details_form">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="64.28571" layeredLayoutPreferredHeightMM="32.804234"  preferredSize="inherit 32.804234mm" name="Container_6">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="64.28571" layeredLayoutPreferredHeightMM="35.449738"  styles="bgImage:null;" preferredSize="67.72487mm 35.449738mm" name="Con_Image_View">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  uiid="Gray_Con" preferredSize="inherit 63.492065mm" name="Container_1">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="64.55026" layeredLayoutPreferredHeightMM="5.820106"  preferredSize="inherit 5.820106mm" name="Container_2">
+        <component type="Label" uiid="Details_Lbls" text="Address:" preferredSize="13.756614mm 10.58201mm" name="Label_3">
+          <layoutConstraint insets="5.9604645E-8mm auto 0.0mm -3.5762787E-7mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="Detalis_Sb_green" text="Amman, Sweileh" preferredSize="48.67725mm 10.31746mm" name="lbl_address">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="Label" uiid="Details_Lbls" text="Choose the start date:" preferredSize="71.69312mm 5.291005mm" name="Label_5">
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="50.79365" layeredLayoutPreferredHeightMM="6.0846562"  preferredSize="50.79365mm 6.0846562mm" name="Container_3">
+        <component type="Picker" uiid="datePicker" text="..." preferredSize="54.761906mm 10.8465605mm" pickerType="1" name="date_picker">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="57.93651" layeredLayoutPreferredHeightMM="44.179893"  preferredSize="74.07407mm 44.179893mm" name="Container_4">
+        <component type="Label" uiid="Details_Lbls" text="Choose your reservation type:" preferredSize="71.69312mm inherit" name="Label_6">
+          <layoutConstraint insets="-2.3841858E-7mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="RadioButton" uiid="Detalis_Sb_green" text="       Booking for a day" preferredSize="35.185184mm 4.2328043mm" name="RB_1_DAYS">
+          <layoutConstraint insets="2.3841858E-7mm auto auto 2.910053mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+        <component type="RadioButton" uiid="Detalis_Sb_green" text="       Booking for a week" preferredSize="34.920635mm 4.7619047mm" name="RB_7_DAYS">
+          <layoutConstraint insets="0.0mm auto auto 2.910053mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+        <component type="RadioButton" uiid="Detalis_Sb_green" text="       Booking for a month" preferredSize="35.185184mm 4.4973545mm" name="RB_30_DAYS">
+          <layoutConstraint insets="0.0mm auto auto 2.910053mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Button" uiid="btn_get_yellow" text="Book now" preferredSize="35.185184mm 7.4074073mm" name="btn_book">
+          <layoutConstraint insets="1.8518518mm auto auto auto" referenceComponents="5 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="64.55026" layeredLayoutPreferredHeightMM="5.820106"  preferredSize="64.55026mm 5.820106mm" name="Container_5">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+          <component type="Label" uiid="Details_Lbls" text="Total price:" preferredSize="23.809525mm 10.58201mm" name="Label_4">
+            <layoutConstraint insets="5.9604645E-8mm auto 0.0mm -3.5762787E-7mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Label" uiid="Detalis_Sb_green" text="35 JOD" preferredSize="38.62434mm 10.31746mm" name="lbl_price">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="login_form" scrollableY="true" name="login_form">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="69.04762" layeredLayoutPreferredHeightMM="116.666664"  preferredSize="inherit 116.666664mm" name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" styles="bgImage:background-image.png;" name="bg_img">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:dark-layer.png;" preferredSize="123.544975mm 138.62434mm" name="bg_img_gray">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" styles="bgImage:logo.png;" preferredSize="28.042328mm 23.809525mm" name="lbl_logo">
+      <layoutConstraint insets="7.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="58.46561" layeredLayoutPreferredHeightMM="100.5291"  preferredSize="58.46561mm 100.5291mm" name="Container_1">
+      <layoutConstraint insets="2.0mm 2.6455026mm 0.0mm 3.7037039mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="53.968254" layeredLayoutPreferredHeightMM="7.4074073"  preferredSize="53.968254mm 7.4074073mm" name="Container_2">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Label" text="Login to continue" styles="font:3.0mm; fgColor:ffffff; alignment:right; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="26.984127mm 8.201058mm" name="Label_1">
+          <layoutConstraint insets="0.0mm 40.0% 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" text=" Yalla Gym" styles="font:4.0mm; fgColor:ffffff; bgImage:; alignment:left; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="29.36508mm 14.285714mm" name="Label_2">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+      </component>
+      <component type="Button" uiid="transperent" text="Forgot password?" styles="font:2.5mm; fgColor:ffffff; alignment:right;" preferredSize="34.920635mm 6.0846562mm" name="btn_forget_pass" actionEvent="true">
+        <layoutConstraint insets="0.0mm 4.7683716E-7mm auto auto" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Button" uiid="login_btn" text="Log In" styles="fgColor:ffffff; bgImage:btn_green.png;" preferredSize="57.67196mm 8.730159mm" name="btn_login" actionEvent="true">
+        <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Button" uiid="login_btn" text="Sign Up" styles="fgColor:0; bgImage:Book_Now_Button.png;" preferredSize="29.89418mm 9.259259mm" name="btn_sign_up" actionEvent="true">
+        <layoutConstraint insets="2.0mm 15.0% auto 15.0%" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="81.74603" layeredLayoutPreferredHeightMM="8.730159"  uiid="con_input" preferredSize="81.74603mm 8.730159mm" name="con_pass">
+        <layoutConstraint insets="2.0mm 0.0mm auto 0.0mm" referenceComponents="5 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="59.25926" layeredLayoutPreferredHeightMM="8.994709"  uiid="con_input" preferredSize="74.07407mm 8.994709mm" name="con_user">
+        <layoutConstraint insets="2.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+  </component>
+</component>

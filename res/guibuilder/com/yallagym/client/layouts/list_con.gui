@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="list_con">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="57.40741" layeredLayoutPreferredHeightMM="25.925926"  uiid="list_Con" preferredSize="65.60847mm 25.925926mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Button" uiid="transperent" preferredSize="60.84656mm 28.571428mm" name="btn_con">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="txt_white_left_ar" text="yalla gym" preferredSize="68.25397mm 3.1746032mm" name="lbl_name">
+      <layoutConstraint insets="-2.3841858E-7mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="txt_left_yellow_ar" text="amman" preferredSize="52.910053mm 2.6455026mm" name="lbl_address">
+      <layoutConstraint insets="auto 0.0mm -2.9802322E-7mm -1.4305115E-6mm" referenceComponents="-1 3 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="txt_left_yellow_ar" text="5 Km" preferredSize="0.0mm 2.3809524mm" name="lbl_distance">
+      <layoutConstraint insets="auto 0.0mm 0.0mm 99.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="53.174603" layeredLayoutPreferredHeightMM="12.1693125"  preferredSize="63.227512mm 12.1693125mm" name="Container_1">
+      <layoutConstraint insets="1.1920929E-7mm 0.0mm 0.0mm 0.0mm" referenceComponents="1 -1 2 -1" referencePositions="1.0 0.0 1.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="9.259259" layeredLayoutPreferredHeightMM="15.343915"  uiid="list_con_sub1_yellow" styles="bgImage:;" preferredSize="9.259259mm 15.343915mm" name="Container_3">
+        <layoutConstraint insets="0.0mm auto 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="transperent" preferredSize="18.518518mm 18.25397mm" name="btn_select_weeky">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="Week" preferredSize="13.756614mm 2.6455026mm" name="Label_5">
+          <layoutConstraint insets="0.0mm 0.0mm 55.0% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="5$" preferredSize="11.640212mm 8.730159mm" name="lbl_priceW">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="9.259259" layeredLayoutPreferredHeightMM="14.285714"  uiid="list_con_sub1_gray" styles="bgImage:;" preferredSize="9.259259mm 14.285714mm" name="Container_5">
+          <layoutConstraint insets="4.616402mm auto -2.1164021mm 12.790055%" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+          <component type="Button" uiid="transperent" preferredSize="20.10582mm 20.899471mm" name="btn_select_month_1">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Label" uiid="txt_black_center_small" text="Month" preferredSize="13.756614mm 9.78836mm" name="lbl_2">
+            <layoutConstraint insets="0.0mm 0.0mm 50.0% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Label" uiid="txt_black_center_small" text="20$" preferredSize="11.640212mm 8.730159mm" name="lbl_priceM_1">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+          </component>
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="9.259259" layeredLayoutPreferredHeightMM="14.550264"  uiid="list_con_sub1_gray" styles="bgImage:;" preferredSize="9.259259mm 14.550264mm" name="Container_4">
+        <layoutConstraint insets="0.0mm auto 0.0mm 3.1746032mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+        <component type="Button" uiid="transperent" preferredSize="20.10582mm 20.899471mm" name="btn_select_month">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="Month" preferredSize="13.756614mm 2.6455026mm" name="lbl">
+          <layoutConstraint insets="0.0mm 0.0mm 55.0% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="20$" preferredSize="11.640212mm 8.730159mm" name="lbl_priceM">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="9.259259" layeredLayoutPreferredHeightMM="13.227513"  uiid="list_con_sub1_gray" styles="bgImage:;" preferredSize="9.259259mm 13.227513mm" name="Container_2">
+        <layoutConstraint insets="0.0mm 3.1746032mm 0.0mm auto" referenceComponents="-1 0 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+        <component type="Button" uiid="transperent" preferredSize="20.10582mm 20.899471mm" name="btn_select_day">
+          <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="Day" preferredSize="13.756614mm 3.7037036mm" name="lbl_1">
+          <layoutConstraint insets="0.0mm 0.0mm 55.0% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+        <component type="Label" uiid="txt_black_center_small" text="1$" preferredSize="11.640212mm 8.730159mm" name="lbl_priceD">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

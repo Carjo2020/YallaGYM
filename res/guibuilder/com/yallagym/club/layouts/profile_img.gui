@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="profile_img">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="48.67725" layeredLayoutPreferredHeightMM="33.333332"  preferredSize="48.67725mm 33.333332mm" name="con_img">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="34.391533" layeredLayoutPreferredHeightMM="11.904762"  preferredSize="34.391533mm 11.904762mm" name="Container">
+      <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Button" uiid="club_profile_img_camera" preferredSize="19.31217mm 8.994709mm" icon="fontImage:e3b0" name="btn_change">
+        <layoutConstraint insets="0.0mm 50.0% 3.968254mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="club_profile_img_camera" text="change" styles="alignment:center;" preferredSize="15.608466mm 5.555556mm" name="Label">
+        <layoutConstraint insets="0.0mm 50.0% 0.0mm 9.536743E-7mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Button" uiid="club_profile_img_delete" preferredSize="17.989418mm inherit" icon="fontImage:e872" name="btn_delete">
+        <layoutConstraint insets="0.0mm 0.0mm 3.968254mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+      </component>
+      <component type="Label" uiid="club_profile_img_delete" text="delete" styles="alignment:center;" preferredSize="19.047619mm 5.291005mm" name="Label_1">
+        <layoutConstraint insets="1.1920929E-7mm 0.0mm 0.0mm 0.0mm" referenceComponents="2 -1 -1 1 " referencePositions="1.0 0.0 0.0 1.0" />
+      </component>
+    </component>
+    <component type="Label" preferredSize="inherit 7.4074073mm" name="lbl_img_path">
+      <layoutConstraint insets="50.0% 50.0% 50.0% 50.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

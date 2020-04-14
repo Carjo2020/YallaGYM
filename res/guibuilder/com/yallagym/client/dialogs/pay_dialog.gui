@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="pay_dialog" scrollableY="true" name="pay_dialog">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="60.05291" layeredLayoutPreferredHeightMM="36.243385"  uiid="Home_Show_More_Dialog" preferredSize="75.66138mm 36.243385mm" name="Container">
+    <layoutConstraint insets="auto 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Button" uiid="club_payments_pay_green_btn" text="Continue" preferredSize="19.31217mm 6.878307mm" name="btn_done">
+      <layoutConstraint insets="auto 0.0mm -4.7683716E-7mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="PersonalInfo_Lbl_AR" text="Choose payment method" styles="font:3.5mm; fgColor:a3cc2e; alignment:center; padding:0px 0px 0px 0px;" preferredSize="55.820107mm 6.3492064mm" name="Label">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" uiid="Home_Show_More_Dialog_Lbls" text="Airport Surcharge" preferredSize="41.00529mm 5.026455mm" name="Label_4">
+      <layoutConstraint insets="1.1920929E-7mm 0.0mm 80.344826% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="1.0 0.0 0.0 1.0" />
+    </component>
+    <component type="SpanButton" uiid="Home_Show_More_Dialog_Lbls" text="Fuel Policy Same to Same" preferredSize="32.27513mm 15.608466mm" name="Span_Button">
+    <custom name="textUiid" type="java.lang.String" value="Home_Show_More_Dialog_Lbls"/>
+      <layoutConstraint insets="0.0mm -4.7683716E-7mm 0.0mm 0.0mm" referenceComponents="2 -1 0 -1" referencePositions="1.0 0.0 1.0 1.0" />
+    </component>
+    <component type="Button" uiid="club_payments_pay_red_btn" text="Cancel" preferredSize="19.31217mm 6.878307mm" name="btn_cancel" actionEvent="true">
+      <layoutConstraint insets="auto auto -5.364418E-7mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="55.291004" layeredLayoutPreferredHeightMM="14.285714"  uiid="club_qr_con_first" preferredSize="58.73016mm 14.285714mm" name="Container_1">
+      <layoutConstraint insets="0.0mm 0.0mm 2.0mm 0.0mm" referenceComponents="1 -1 4 -1" referencePositions="1.0 0.0 1.0 0.0" />
+      <component type="RadioButton" uiid="radio_btn_green_bold" text="Online payment" styles="bgImage:;" preferredSize="57.67196mm 8.730159mm" group="" name="Rb_Online">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 10.0%" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+      <component type="RadioButton" uiid="radio_btn_green_bold" text="Pay at  gym" preferredSize="60.05291mm inherit" group="" name="Rb_Offline">
+        <layoutConstraint insets="0.0mm 0.0mm 50.0% 10.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+  </component>
+</component>

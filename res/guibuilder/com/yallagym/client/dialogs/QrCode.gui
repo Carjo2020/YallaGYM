@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="QrCode" scrollableY="true" name="QrCode">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="60.84656" layeredLayoutPreferredHeightMM="54.497356"  preferredSize="75.92593mm 54.497356mm" name="Container">
+    <layoutConstraint insets="auto 3.0mm auto 3.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="" preferredSize="38.095238mm 30.42328mm" name="lbl_qrcode">
+      <layoutConstraint insets="3.0mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Button" text="&#x62d;&#x633;&#x646;&#x627;&#x64b;" name="btn_ok" actionEvent="true">
+      <layoutConstraint insets="5.0mm auto auto auto" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="bgColor:ffffff; transparency:255;" title="Activation_Form_2" scrollableY="true" name="Activation_Form_2">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="104.49735" layeredLayoutPreferredHeightMM="123.809525"  preferredSize="104.49735mm 123.809525mm" name="Container">
+    <layoutConstraint insets="0.26455027mm auto 0.26455027mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="96.296295" layeredLayoutPreferredHeightMM="20.10582"  styles="bgColor:ffffff; transparency:255; opacity:255;" preferredSize="96.296295mm 20.10582mm" name="Container_2">
+      <layoutConstraint insets="0.0mm -1.5873016mm auto 1.5873016mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="86.772484" layeredLayoutPreferredHeightMM="8.201058"  preferredSize="66.137566mm 8.201058mm" name="Container">
+        <layoutConstraint insets="0.0mm 4.7619047mm auto 4.7619047mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="TextField" uiid="Activation_Input_Under_Line" preferredSize="48.148148mm 4.7619047mm" hint="0790123456" name="tf_number">
+          <layoutConstraint insets="auto 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+        </component>
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="17.989418" layeredLayoutPreferredHeightMM="7.142857"  preferredSize="17.989418mm 7.142857mm" name="Container_1">
+          <layoutConstraint insets="auto auto auto 0.2645502mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          <component type="Label" styles="bgImage:flag-jordan.png;" preferredSize="5.820106mm 3.968254mm" name="Label">
+            <layoutConstraint insets="auto auto auto -5.9604645E-8mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Label" text="+962" styles="fgColor:0; opacity:255;" preferredSize="9.259259mm inherit" name="Label_1">
+            <layoutConstraint insets="auto 0.0mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+        </component>
+      </component>
+      <component type="Label" text="Please enter your mobile number" preferredSize="47.354496mm 7.6719575mm" name="Label_2">
+        <layoutConstraint insets="0.0mm 4.7619047mm auto 4.7619047mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="96.296295" layeredLayoutPreferredHeightMM="21.693121"  preferredSize="inherit 21.693121mm" name="Container_4">
+      <layoutConstraint insets="auto 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="28.571428" layeredLayoutPreferredHeightMM="31.481482"  preferredSize="28.571428mm 34.126984mm" name="Container_3">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 70.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        <component type="Button" uiid="ic_fab" text="" preferredSize="8.994709mm 7.936508mm" icon="fontImage:e5c8" name="btn_send_sms">
+          <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+        </component>
+      </component>
+      <component type="SpanLabel" text="By continuing you may receive an SMS for verification. Message and data rates may apply." preferredSize="67.19577mm 26.455027mm" name="Span_Label">
+        <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 0 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Button" text="" preferredSize="6.6137567mm 9.259259mm" icon="fontImage:e5c4" name="btn_back">
+      <layoutConstraint insets="0.0mm auto auto 5.0%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

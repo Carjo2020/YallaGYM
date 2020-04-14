@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" title="club_settings" scrollableY="false" name="club_settings">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="82.01058" layeredLayoutPreferredHeightMM="132.80423"  preferredSize="inherit 132.80423mm" name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  preferredSize="inherit 38.88889mm" name="Con_Images">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="77.77778" layeredLayoutPreferredHeightMM="90.21164"  uiid="Gray_Con" preferredSize="inherit 90.21164mm" name="Con_Details">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      <component type="Label" uiid="Details_Lbls" text="Description:" preferredSize="18.25397mm 6.3492064mm" name="Label">
+        <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="TextArea" uiid="blue_rec" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." preferredSize="45.767197mm 14.550264mm" columns="8" name="tf_description">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="71.42857" layeredLayoutPreferredHeightMM="28.571428"  preferredSize="62.16931mm 28.571428mm" name="Container_3">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="71.42857" layeredLayoutPreferredHeightMM="5.026455"  preferredSize="36.50794mm 5.026455mm" name="Container_4">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          <component type="Label" uiid="Details_Lbls" text="Choose your reservation type:" preferredSize="72.48677mm 12.433863mm" name="Label_2">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+        </component>
+        <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  preferredSize="31.746033mm 23.544973mm" name="Con_Subscription">
+          <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+          <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="66.666664" layeredLayoutPreferredHeightMM="7.6719575"  preferredSize="85.71429mm 7.6719575mm" name="Container_10">
+            <component type="CheckBox" uiid="blue_rec" text="   Booking for a day" preferredSize="33.597885mm 10.05291mm" name="C_BOX_Day">
+              <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+            <component type="TextField" uiid="blue_rec" text="5" preferredSize="7.4074073mm 6.0846562mm" hint="price" constraint="5" name="tf_price_day">
+              <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="-1 2 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+            </component>
+            <component type="Label" uiid="Detalis_Sb_green" text="JD" preferredSize="4.4973545mm 13.227513mm" name="Label_7">
+              <layoutConstraint insets="0.0mm 1.8518518mm 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+          </component>
+          <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="66.666664" layeredLayoutPreferredHeightMM="7.6719575"  preferredSize="85.71429mm 7.6719575mm" name="Container_11">
+            <component type="CheckBox" uiid="blue_rec" text="   Booking for a week" preferredSize="33.333332mm inherit" name="C_BOX_Week">
+              <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+            <component type="TextField" uiid="blue_rec" text="10" preferredSize="7.4074073mm 5.555556mm" hint="price" constraint="5" name="tf_price_week">
+              <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="-1 2 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+            </component>
+            <component type="Label" uiid="Detalis_Sb_green" text="JD" preferredSize="4.4973545mm 10.31746mm" name="Label_8">
+              <layoutConstraint insets="0.0mm 1.8mm 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+          </component>
+          <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="66.666664" layeredLayoutPreferredHeightMM="7.6719575"  preferredSize="85.71429mm 7.6719575mm" name="Container_12">
+            <component type="CheckBox" uiid="blue_rec" text="   Booking for a month" preferredSize="33.597885mm inherit" name="C_BOX_Month">
+              <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+            <component type="TextField" uiid="blue_rec" text="15" preferredSize="7.4074073mm inherit" hint="price" constraint="5" name="tf_price_month">
+              <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="-1 2 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+            </component>
+            <component type="Label" uiid="Detalis_Sb_green" text="JD" preferredSize="4.4973545mm 7.142857mm" name="Label_9">
+              <layoutConstraint insets="0.0mm 1.8mm 0.0mm auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+          </component>
+        </component>
+      </component>
+      <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="71.42857" layeredLayoutPreferredHeightMM="25.661375"  preferredSize="74.33862mm 25.661375mm" name="Container_6">
+        <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="66.137566" layeredLayoutPreferredHeightMM="8.201058"  preferredSize="66.137566mm 8.465609mm" name="Container_7">
+          <layoutConstraint insets="0.0mm 0.0mm auto -4.7683716E-7mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          <component type="Label" uiid="Details_Lbls" text="Address:" preferredSize="11.111112mm 10.8465605mm" name="Label_1">
+            <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="TextField" uiid="blue_rec" preferredSize="50.529102mm 9.78836mm" hint="Like: Amman - City Center" rows="1" name="tf_place">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+        </component>
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="62.962963" layeredLayoutPreferredHeightMM="8.465609"  preferredSize="62.962963mm 8.465609mm" name="Container_8">
+          <layoutConstraint insets="0.0mm -1.1920929E-7mm auto -3.5762787E-7mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+          <component type="Label" uiid="Details_Lbls" text="Phone:" preferredSize="11.111112mm 10.8465605mm" name="Label_3">
+            <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="TextField" uiid="blue_rec" preferredSize="50.529102mm 9.78836mm" hint="Like: 0791234567" constraint="3" name="tf_phone">
+            <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+        </component>
+        <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="62.962963" layeredLayoutPreferredHeightMM="8.465609"  preferredSize="62.962963mm 8.465609mm" name="Container_9">
+          <layoutConstraint insets="0.0mm -5.9604645E-8mm auto -4.172325E-7mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+          <component type="Label" uiid="Details_Lbls" text="Work Time from:" styles="font:2.0mm; alignment:right;" preferredSize="18.25397mm 10.8465605mm" name="Label_4">
+            <layoutConstraint insets="0.0mm auto 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+          </component>
+          <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="12.698413" layeredLayoutPreferredHeightMM="7.4074073"  preferredSize="12.698413mm 7.4074073mm" name="Con_From">
+            <layoutConstraint insets="auto auto auto 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
+            <component type="Picker" uiid="blue_rec" text="00:00" styles="alignment:center;" preferredSize="23.544973mm 10.31746mm" pickerType="2" name="time_from">
+              <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+          </component>
+          <component type="Label" uiid="Details_Lbls" text="To" styles="font:2.0mm; alignment:center;" preferredSize="4.7619047mm 8.465609mm" name="Label_6">
+            <layoutConstraint insets="0.0mm auto 2.3841858E-7mm 0.0mm" referenceComponents="-1 -1 -1 1 " referencePositions="0.0 0.0 0.0 1.0" />
+          </component>
+          <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="12.698413" layeredLayoutPreferredHeightMM="7.4074073"  preferredSize="12.698413mm 7.142857mm" name="Con_To">
+            <layoutConstraint insets="auto auto auto 0.0mm" referenceComponents="-1 -1 -1 2 " referencePositions="0.0 0.0 0.0 1.0" />
+            <component type="Picker" uiid="blue_rec" text="00:00" styles="alignment:center;" preferredSize="29.100529mm 12.698413mm" pickerType="2" name="time_to">
+              <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+            </component>
+          </component>
+        </component>
+      </component>
+      <component type="SpanLabel" uiid="Detalis_Sb_green" text="* Please note we will add our fees on your current price" preferredSize="62.698414mm 8.201058mm" name="Span_Label">
+      <custom name="textUiid" type="java.lang.String" value="Detalis_Sb_green"/>
+        <layoutConstraint insets="-2.3841858E-7mm 0.0mm 0.0mm 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="InfiniteProgress" preferredSize="11.111112mm 9.523809mm" name="Infinite_Progress">
+      <layoutConstraint insets="10.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>
